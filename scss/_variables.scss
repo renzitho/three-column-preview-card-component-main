@@ -1,0 +1,23 @@
+//Layout
+$resolutionDesktop: 900px;
+
+//Colors
+
+  //Primary
+
+  $colorBrightOrange: hsl(31, 77%, 52%);
+  $colorDarkCyan: hsl(184, 100%, 22%);
+  $colorVeryDarkCyan: hsl(179, 100%, 13%);
+
+  //Neutral
+
+  $colorTransparentWhite: hsla(0, 0%, 100%, 0.75);    //paragraphs
+  $colorVeryLightGray: hsl(0, 0%, 95%);               //background, headings, buttons
+
+//Typography
+$fontSize: 15px;
+  //Fonts
+  $fontFamilyLexend: 'Lexend Deca', sans-serif;
+  $fontWeightLight: 400;
+  $fontFamilyShoulders: 'Big Shoulders Display', cursive;;
+  $fontWeightStrong: 700;

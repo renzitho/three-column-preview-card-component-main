@@ -1,0 +1,14 @@
+.attribution { 
+  position: absolute;
+  bottom: 0.5rem;
+  max-width: 80vw;
+  text-align: center;
+  font-family: $fontFamilyLexend;
+  line-height: 1.6rem;
+  a{ 
+    color: hsl(228, 45%, 44%); 
+  }
+  a:hover{
+    text-decoration: none;
+  }
+}

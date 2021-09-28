@@ -1,0 +1,151 @@
+.mainContainer {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: #f2f2f2; }
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6rem 0;
+  width: 80%;
+  font-size: 15px;
+  border-radius: 1rem;
+  overflow: hidden; }
+  .cards .card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 4rem 2rem;
+    height: 30rem;
+    max-width: 22rem;
+    background: #e38826; }
+    .cards .card1 h2 {
+      font-family: "Big Shoulders Display", cursive;
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: #f2f2f2;
+      text-transform: uppercase; }
+    .cards .card1 p {
+      max-width: 90%;
+      font-family: "Lexend Deca", sans-serif;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.75);
+      padding: 2rem 0; }
+    .cards .card1 span {
+      background: #f2f2f2;
+      color: #e38826;
+      padding: 1rem 2rem;
+      font-family: "Big Shoulders Display", cursive;
+      letter-spacing: 1px;
+      font-weight: 400;
+      font-size: 1.1rem;
+      border-radius: 1rem;
+      border: solid 3px transparent;
+      transition: background, color, border, 200ms ease-in-out; }
+    .cards .card1 span:hover {
+      cursor: pointer;
+      background: #e38826;
+      color: #f2f2f2;
+      border: solid 3px #f2f2f2; }
+  .cards .card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 4rem 2rem;
+    height: 30rem;
+    max-width: 22rem;
+    background: #006970; }
+    .cards .card2 h2 {
+      font-family: "Big Shoulders Display", cursive;
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: #f2f2f2;
+      text-transform: uppercase; }
+    .cards .card2 p {
+      max-width: 90%;
+      font-family: "Lexend Deca", sans-serif;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.75);
+      padding: 2rem 0; }
+    .cards .card2 span {
+      background: #f2f2f2;
+      color: #006970;
+      padding: 1rem 2rem;
+      font-family: "Big Shoulders Display", cursive;
+      letter-spacing: 1px;
+      font-weight: 400;
+      font-size: 1.1rem;
+      border-radius: 1rem;
+      border: solid 3px transparent;
+      transition: background, color, border, 200ms ease-in-out; }
+    .cards .card2 span:hover {
+      cursor: pointer;
+      background: #006970;
+      color: #f2f2f2;
+      border: solid 3px #f2f2f2; }
+  .cards .card3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 4rem 2rem;
+    height: 30rem;
+    max-width: 22rem;
+    background: #004241; }
+    .cards .card3 h2 {
+      font-family: "Big Shoulders Display", cursive;
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: #f2f2f2;
+      text-transform: uppercase; }
+    .cards .card3 p {
+      max-width: 90%;
+      font-family: "Lexend Deca", sans-serif;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.75);
+      padding: 2rem 0; }
+    .cards .card3 span {
+      background: #f2f2f2;
+      color: #004241;
+      padding: 1rem 2rem;
+      font-family: "Big Shoulders Display", cursive;
+      letter-spacing: 1px;
+      font-weight: 400;
+      font-size: 1.1rem;
+      border-radius: 1rem;
+      border: solid 3px transparent;
+      transition: background, color, border, 200ms ease-in-out; }
+    .cards .card3 span:hover {
+      cursor: pointer;
+      background: #004241;
+      color: #f2f2f2;
+      border: solid 3px #f2f2f2; }
+
+@media (min-width: 900px) {
+  .cards {
+    flex-direction: row;
+    margin: 3rem 0; } }
+.attribution {
+  position: absolute;
+  bottom: 0.5rem;
+  max-width: 80vw;
+  text-align: center;
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 1.6rem; }
+  .attribution a {
+    color: #3e52a3; }
+  .attribution a:hover {
+    text-decoration: none; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=main.css.map */
