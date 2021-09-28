@@ -1,53 +1,61 @@
 @mixin cardStyles($color){
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
   padding: 4rem 2rem;
-  height: 30rem;
   max-width: 22rem;
   background: $color;
+  .card_imageContainer{
+    margin-bottom: 1rem;
+  }
   h2{
     font-family: $fontFamilyShoulders;
     font-size: 2.4rem;
     font-weight: $fontWeightStrong;
     color: $colorVeryLightGray;
     text-transform: uppercase;
+    margin-bottom: 1rem;
   }
   p{
-    max-width: 90%;
+    max-width: 14rem;
     font-family: $fontFamilyLexend;
     font-weight: $fontWeightLight;
     color: $colorTransparentWhite;
-    padding: 2rem 0;
+    padding: 0 0 1rem 0;
   }
-  span{
-    background: $colorVeryLightGray;
-    color: $color;
-    padding: 1rem 2rem;
-    font-family: $fontFamilyShoulders;
-    letter-spacing: 1px;
-    font-weight: $fontWeightLight;
-    font-size: 1.1rem;
-    border-radius: 1rem;
-    border: solid 3px transparent;
-    transition: background, color, border, 200ms ease-in-out;
-  }
-  span:hover{
-    cursor: pointer;
-    background: $color;
-    color: $colorVeryLightGray;
-    border: solid 3px $colorVeryLightGray;
+  a{
+    text-decoration: none;
+    margin-top: 6rem;
+    span{
+      background: $colorVeryLightGray;
+      color: $color;
+      font-family: $fontFamilyShoulders;
+      padding: 1rem 2rem;
+      letter-spacing: 1px;
+      font-weight: $fontWeightLight;
+      font-size: 1.1rem;
+      border-radius: 1rem;
+      border: solid 3px transparent;
+      transition: background, color, border, 200ms ease-in-out;
+    }
+    span:hover{
+      background: $color;
+      color: $colorVeryLightGray;
+      border: solid 3px $colorVeryLightGray;
+    }
   }
 }
 
 .cards{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   margin: 6rem 0;
-  width: 80%;
   font-size: $fontSize;
+  border-radius: 1rem;
+  overflow: hidden;
   .card1{
     @include cardStyles($colorBrightOrange);
   }

@@ -9,121 +9,135 @@
 .cards {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   margin: 6rem 0;
-  width: 80%;
-  font-size: 15px; }
+  font-size: 15px;
+  border-radius: 1rem;
+  overflow: hidden; }
   .cards .card1 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
     padding: 4rem 2rem;
-    height: 30rem;
     max-width: 22rem;
     background: #e38826; }
+    .cards .card1 .card_imageContainer {
+      margin-bottom: 1rem; }
     .cards .card1 h2 {
       font-family: "Big Shoulders Display", cursive;
       font-size: 2.4rem;
       font-weight: 700;
       color: #f2f2f2;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      margin-bottom: 1rem; }
     .cards .card1 p {
-      max-width: 90%;
+      max-width: 14rem;
       font-family: "Lexend Deca", sans-serif;
       font-weight: 400;
       color: rgba(255, 255, 255, 0.75);
-      padding: 2rem 0; }
-    .cards .card1 span {
-      background: #f2f2f2;
-      color: #e38826;
-      padding: 1rem 2rem;
-      font-family: "Big Shoulders Display", cursive;
-      letter-spacing: 1px;
-      font-weight: 400;
-      font-size: 1.1rem;
-      border-radius: 1rem;
-      border: solid 3px transparent;
-      transition: background, color, border, 200ms ease-in-out; }
-    .cards .card1 span:hover {
-      cursor: pointer;
-      background: #e38826;
-      color: #f2f2f2;
-      border: solid 3px #f2f2f2; }
+      padding: 0 0 1rem 0; }
+    .cards .card1 a {
+      text-decoration: none;
+      margin-top: 6rem; }
+      .cards .card1 a span {
+        background: #f2f2f2;
+        color: #e38826;
+        font-family: "Big Shoulders Display", cursive;
+        padding: 1rem 2rem;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 1.1rem;
+        border-radius: 1rem;
+        border: solid 3px transparent;
+        transition: background, color, border, 200ms ease-in-out; }
+      .cards .card1 a span:hover {
+        background: #e38826;
+        color: #f2f2f2;
+        border: solid 3px #f2f2f2; }
   .cards .card2 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
     padding: 4rem 2rem;
-    height: 30rem;
     max-width: 22rem;
     background: #006970; }
+    .cards .card2 .card_imageContainer {
+      margin-bottom: 1rem; }
     .cards .card2 h2 {
       font-family: "Big Shoulders Display", cursive;
       font-size: 2.4rem;
       font-weight: 700;
       color: #f2f2f2;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      margin-bottom: 1rem; }
     .cards .card2 p {
-      max-width: 90%;
+      max-width: 14rem;
       font-family: "Lexend Deca", sans-serif;
       font-weight: 400;
       color: rgba(255, 255, 255, 0.75);
-      padding: 2rem 0; }
-    .cards .card2 span {
-      background: #f2f2f2;
-      color: #006970;
-      padding: 1rem 2rem;
-      font-family: "Big Shoulders Display", cursive;
-      letter-spacing: 1px;
-      font-weight: 400;
-      font-size: 1.1rem;
-      border-radius: 1rem;
-      border: solid 3px transparent;
-      transition: background, color, border, 200ms ease-in-out; }
-    .cards .card2 span:hover {
-      cursor: pointer;
-      background: #006970;
-      color: #f2f2f2;
-      border: solid 3px #f2f2f2; }
+      padding: 0 0 1rem 0; }
+    .cards .card2 a {
+      text-decoration: none;
+      margin-top: 6rem; }
+      .cards .card2 a span {
+        background: #f2f2f2;
+        color: #006970;
+        font-family: "Big Shoulders Display", cursive;
+        padding: 1rem 2rem;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 1.1rem;
+        border-radius: 1rem;
+        border: solid 3px transparent;
+        transition: background, color, border, 200ms ease-in-out; }
+      .cards .card2 a span:hover {
+        background: #006970;
+        color: #f2f2f2;
+        border: solid 3px #f2f2f2; }
   .cards .card3 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
     padding: 4rem 2rem;
-    height: 30rem;
     max-width: 22rem;
     background: #004241; }
+    .cards .card3 .card_imageContainer {
+      margin-bottom: 1rem; }
     .cards .card3 h2 {
       font-family: "Big Shoulders Display", cursive;
       font-size: 2.4rem;
       font-weight: 700;
       color: #f2f2f2;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      margin-bottom: 1rem; }
     .cards .card3 p {
-      max-width: 90%;
+      max-width: 14rem;
       font-family: "Lexend Deca", sans-serif;
       font-weight: 400;
       color: rgba(255, 255, 255, 0.75);
-      padding: 2rem 0; }
-    .cards .card3 span {
-      background: #f2f2f2;
-      color: #004241;
-      padding: 1rem 2rem;
-      font-family: "Big Shoulders Display", cursive;
-      letter-spacing: 1px;
-      font-weight: 400;
-      font-size: 1.1rem;
-      border-radius: 1rem;
-      border: solid 3px transparent;
-      transition: background, color, border, 200ms ease-in-out; }
-    .cards .card3 span:hover {
-      cursor: pointer;
-      background: #004241;
-      color: #f2f2f2;
-      border: solid 3px #f2f2f2; }
+      padding: 0 0 1rem 0; }
+    .cards .card3 a {
+      text-decoration: none;
+      margin-top: 6rem; }
+      .cards .card3 a span {
+        background: #f2f2f2;
+        color: #004241;
+        font-family: "Big Shoulders Display", cursive;
+        padding: 1rem 2rem;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 1.1rem;
+        border-radius: 1rem;
+        border: solid 3px transparent;
+        transition: background, color, border, 200ms ease-in-out; }
+      .cards .card3 a span:hover {
+        background: #004241;
+        color: #f2f2f2;
+        border: solid 3px #f2f2f2; }
 
 @media (min-width: 900px) {
   .cards {
