@@ -48,8 +48,6 @@
   margin: 6rem 0;
   width: 80%;
   font-size: $fontSize;
-  border-radius: 1rem;
-  overflow: hidden;
   .card1{
     @include cardStyles($colorBrightOrange);
   }
@@ -63,6 +61,6 @@
 @media(min-width: $resolutionDesktop){
   .cards{
     flex-direction: row;
-    margin: 3rem 0;
+    margin: 0;
   }
 }
